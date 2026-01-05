@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='styles.css'>
+    <script src='script.js' defer></script>
+    <title>BBCode Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>BBCode Generator</h1>
+
+        <label for="textInput">Text:</label>
+        <input type="text" id="textInput" placeholder="Enter your text">
+
+        <label for="colorInput">Color:</label>
+        <input type="color" id="colorInput" value="#ff0000">
+
+        <label for="sizeInput">Size:</label>
+        <input type="number" id="sizeInput" min="1" max="100" value="12">
+
+        <div class="toggles">
+            <button id="boldBtn" class="toggle">B</button>
+            <button id="italicBtn" class="toggle">I</button>
+            <button id="underlineBtn" class="toggle">U</button>
+        </div>
+
+        <button id="generateBtn">Generate BBCode</button>
+
+        <label for="output">BBCode Output:</label>
+        <textarea id="output" readonly></textarea>
+    </div>
+</body>
+</html>
