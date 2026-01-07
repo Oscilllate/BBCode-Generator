@@ -18,7 +18,7 @@ Enter your text, pick a color, set the size, toggle styles, and click Generate B
 
 ## Installation
 
-1. Download the files in the repository
+1. Download the files in the repository (into **one file**)
 2. Open index.html
 
 ## Usage
@@ -42,7 +42,9 @@ Input:
 
 Output:
 
-`[color=#ff0000][size=16][b][i]Hello World[/i][/b][/size][/color]`
+```bbcode
+[color=#ff0000][size=16][b][i]Hello World[/i][/b][/size][/color]
+```
 
 ## Files
 
@@ -55,6 +57,14 @@ Output:
 - The color picker is styled for modern browsers; some legacy browsers may render it differently.
 - Named colors are automatically converted to hex.
 - The output BBCode ensures tags are properly nested and closed.
+
+## Why this project will not be updated (as of January 8th, 2026)
+
+The version I actively use depends on a private helper library that I created for my own projects. Because that library is not public and not intended to be released at this time, maintaining and updating this public version would cause unnecessary divergence and confusion.
+
+As a result, this repository should be considered a finished snapshot rather than an actively maintained project. It will remain available for use. Currently under no bugs. But will not have added features.
+
+**This may change if I later choose to release my library**
 
 ## License
 
